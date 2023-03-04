@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			background-image: url(https://wallpapercave.com/wp/wp3250461.jpg);
+	    }
+	    .header {
+	    	background-color: #F0F8FF;
+	    	margin: 25px;
+	    	font-size: 40px;
+	    	text-align: center;
+	    	color: #003366;
+	    	height: 150px;
+	    }
+	    #navigation {
+	    	background-color: #F0FFFF;
+	    	margin: 25px;
+	    	font-size: 40px;
+	    	text-align: center;
+	    	color: #003366;
+	    	height: 50px;
+	    }
+	    .row {
+	    	display: -webkit-flex;
+	    	display: flex;
+	    	flex-wrap: nowrap;
+	    }
+	    .row > div {
+	    	background-color: #F0F8FF;
+	    	margin: 25px;
+	    	height: 500px;
+	    	font-size: 40px;
+	    	text-align: center;
+	    	color: #003366;
+	    }
+	    .footer {
+	    	background-color: #F0F8FF;
+	    	margin: 25px;
+	    	font-size: 40px;
+	    	text-align: center;
+	    	color: #003366;
+	    	height: 100px;
+	    }
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<p>Header</p>
+	</div>
+
+	<div id="navigation">
+		<p>Nagivation Menu</p>
+	</div>
+
+	<div class="row">
+		<div class= "side" style="flex-grow: 1">Content</div>
+		<div class= "middle"style="flex-grow: 8">Main Content</div>
+		<div class= "side"style="flex-grow: 1">Content</div>
+	</div>
+
+	<div class="footer">
+		<p>Footer</p>
+	</div>
+</body>
+</html>
+
